@@ -19,8 +19,9 @@ Install:
 
 Usage:
 ------
-
-  `\l <install dir for expat.q>/expat.q`  
-  `xmlparse "<tag/>`  
-  `xmlparse ("<tag attr1=\"1234\">";"text";"</tag>")`  
-  `xmlparse read0 ``:a_file.xml`  
+```
+\l <install dir for expat.q>/expat.q  
+xmlparse "<tag/>"  
+xmlparse ("<tag attr1=\"1234\">";"text";"</tag>")  
+xmlparse read0 `:a_file.xml
+```
