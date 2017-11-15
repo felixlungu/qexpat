@@ -11,6 +11,9 @@ linux: `gcc -shared -m32 -lexpat -o expat.so expat.c`
 
 for 64bit use -m64.  
 
+You will need `k.h` to compile as above. 
+See http://code.kx.com/wiki/Cookbook/ExtendingWithC for details and download link. 
+
 Install:
 ------
 
